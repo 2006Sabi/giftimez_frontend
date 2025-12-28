@@ -10,7 +10,7 @@ export const ShopProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
     const [wishlist, setWishlist] = useState([]);
 
-    const API_URL = 'http://localhost:5000/api';
+    const API_URL = 'https://giftimez-backend.onrender.com/api';
 
     // Helper for auth headers
     const authHeader = () => ({
